@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivBackdropImage"
+        android:layout_width="461dp"
+        android:layout_height="297dp"
+        android:scaleType="fitXY"
+        android:layout_margin="5dp"
+        app:srcCompat="@drawable/flicks_backdrop_placeholderr" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="203dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-31dp"
+        android:layout_toEndOf="@+id/ivBackdropImage"
+        android:layout_toRightOf="@+id/ivBackdropImage"
+        android:text="Movie Title"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvOverView"
+        android:layout_width="201dp"
+        android:layout_height="243dp"
+        android:layout_alignBottom="@+id/tvTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="-270dp"
+        android:layout_toEndOf="@+id/ivBackdropImage"
+        android:layout_toRightOf="@+id/ivBackdropImage"
+        android:text="Movie overview and Synopsis" />
+
+
+
+</RelativeLayout>
