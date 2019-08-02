@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_margin="5dp"
     android:layout_width="match_parent"
+    android:background= "#2b2727"
     android:layout_height="wrap_content">
 
     <ImageView
@@ -21,6 +22,7 @@
         android:layout_marginEnd="-317dp"
         android:layout_marginRight="-317dp"
         android:text="Movie Title"
+        android:textColor="#ffffff"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
@@ -28,12 +30,13 @@
         android:layout_width="318dp"
         android:layout_height="108dp"
         android:layout_below="@+id/ivPosterImage"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_marginStart="3dp"
         android:layout_marginLeft="3dp"
         android:layout_marginTop="-105dp"
         android:layout_toEndOf="@+id/ivPosterImage"
         android:layout_toRightOf="@+id/ivPosterImage"
         android:text="Movie overview and Synopsis"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:textColor="@android:color/darker_gray" />
 </RelativeLayout>

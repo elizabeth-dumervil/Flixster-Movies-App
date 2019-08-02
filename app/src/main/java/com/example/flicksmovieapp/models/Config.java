@@ -21,7 +21,7 @@ public class Config {
         JSONArray posterSizeOptions = images.getJSONArray("poster_sizes");
         //use the option at index 3 or w342 as a fallback
         posterSize = posterSizeOptions.optString(3, "w342");
-        //backdrop size
+        //parse  the backdrop size
         JSONArray backdropSizeOptions =images.getJSONArray("backdrop_sizes");
         backdropSize = backdropSizeOptions.optString(1, "w780");
     }
