@@ -15,12 +15,15 @@ public class Movie {
     String overview;
     String posterPath;
     String backdropPath;//only the path
+    String release_date;
+    String original_language;
     Double voteAverage;
     //String popularity;
 
 
     public Movie() {
     }
+
 
 
 
@@ -31,6 +34,9 @@ public class Movie {
         posterPath = object.getString("poster_path");
         backdropPath = object.getString("backdrop_path");
         voteAverage = object.getDouble ("vote_average");
+        release_date = object.getString("release_date");
+        original_language =object.getString("original_language");
+
 
 
     }
@@ -54,5 +60,13 @@ public class Movie {
 
     public Double getVoteAverage() {
         return voteAverage;
+    }
+
+    public String getRelease_date() {
+        return release_date;
+    }
+
+    public String getOriginal_language() {
+        return original_language;
     }
 }
