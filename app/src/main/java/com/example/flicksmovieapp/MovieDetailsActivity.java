@@ -17,7 +17,10 @@ public class MovieDetailsActivity extends AppCompatActivity {
     // the view object
     TextView tvTitle;
     TextView tvOverview;
+
     RatingBar rbVoteAverage;
+
+
 
 
 
