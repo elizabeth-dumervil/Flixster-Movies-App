@@ -23,7 +23,7 @@ import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 
 import static com.example.flicksmovieapp.R.layout.item_movie;
 
-//Created by GLORIA
+//Created by GLORIA Eva ELIZABETH DUMERVIL
 
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> {
     //list of movies
